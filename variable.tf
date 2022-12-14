@@ -12,7 +12,7 @@ variable "public_subnet1_name" {}
 #variable "public_subnet3_name" {}
 variable "private_subnet1_name" {}
 variable "Main_Routing_Table" {}
-variable "azs" { default = "us-east-2b" }
+variable "azs" { default = "us-east-1b" }
 #"us-east-1b", "us-east-1c"]
 variable "environment" { default = "dev" }
 variable "instance_type" { default = "t2.medium" }
